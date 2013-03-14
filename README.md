@@ -27,3 +27,18 @@ Git it decentralized SCM system, so there is no explicit revision number, instea
 ### git_last_commit_hash( DIR OUTVAR )
 
 Gets last commit hash from specified local git repository (dir).
+
+
+## EnableCpp11
+
+Enable C++11 support for various compilers and build systems.
+
+Currently supported: 
+- GNU C++ Compiler (g++)
+- Clang compiler (LLVM frontend)
+- Appple Xcode
+
+**usage**:
+
+`include(EnableCpp11)`
+
